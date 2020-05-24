@@ -195,7 +195,7 @@ $(document).ready(function () {
             myContractInstance.methods.users(account).call().then(function (result) {
                 if (result[0]) {
                     localStorage.setItem("address", account);
-                    location.href = "https://bullrunv8gold.github.io/.gold/Home-Dashboard/";
+                    location.href = "https://bullrunv8gold.github.io/.gold/Home-Dashboard";
                 }
                 else {
                     $('.error').html('You need to register first');
@@ -224,7 +224,7 @@ $(document).ready(function () {
                 if (result1.status == "0x1") {
                     alert("success")
                     localStorage.setItem("address", account);
-                    location.href = "https://bullrunv8gold.github.io/.gold/Home-Dashboard/";
+                    location.href = "https://bullrunv8gold.github.io/.gold/Home-Dashboard";
                 }
                 else {
                     $('.error').html('Transaction Failed');
@@ -294,7 +294,7 @@ $(document).ready(function () {
                     if (receipt.status) {
                         alert("success")
                         localStorage.setItem("address", account);
-                        location.href = "https://bullrunv8gold.github.io/.gold/Home-Dashboard/";
+                        location.href = "https://bullrunv8gold.github.io/.gold/Home-Dashboard";
                     }
                     else {
                         $('.error').html('Transaction Failed');
@@ -319,7 +319,7 @@ $(document).ready(function () {
                        
 
                             localStorage.setItem("address", add);
-                            location.href = "https://bullrunv8gold.github.io/.gold/Home-Dashboard/";
+                            location.href = "https://bullrunv8gold.github.io/.gold/Home-Dashboard";
                         }
                         else {
                             $('.error').html('You need to register first');
@@ -374,7 +374,7 @@ $(document).ready(function () {
                 <div class="login100-form">
                     <form class="w-100 validate-form" onsubmit="return false" id="signinform">
                         <span class="login100-form-title p-b-10 text-white">
-                            EtherAir Login
+                            BULLRUN V8 GOLD Login
                         </span>
                         <div class="w-100">
                             <img src="../wallet.png" class="w-100 p-b-34" />
